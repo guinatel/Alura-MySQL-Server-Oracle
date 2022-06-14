@@ -1,0 +1,6 @@
+USE sucos;
+
+UPDATE tbproduto SET EMBALAGEM = 'Lata' 
+WHERE PRODUTO = '544931';
+
+SELECT * FROM tbproduto WHERE PRODUTO = 544931;
